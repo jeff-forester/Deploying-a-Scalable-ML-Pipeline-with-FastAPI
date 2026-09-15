@@ -27,3 +27,26 @@ Working in a command line environment is recommended for ease of use with git an
 *  Create a RESTful API using FastAPI this must implement:
     * GET on the root giving a welcome message.
     * POST that does model inference.
+
+# Submission Details
+
+GitHub Repository:
+https://github.com/jeff-forester/Deploying-a-Scalable-ML-Pipeline-with-FastAPI
+
+The project trains a Random Forest classifier using the Census Income dataset and deploys the model using FastAPI.
+
+The API includes:
+* A GET endpoint at `/` that returns a welcome message.
+* A POST endpoint at `/data/` that performs model inference.
+
+The trained model achieved:
+* Precision: 0.7353
+* Recall: 0.6378
+* F1 Score: 0.6831
+
+The repository also includes:
+* Unit tests for the machine learning functions.
+* Slice-based model performance results in `slice_output.txt`.
+* A completed `model_card.md`.
+* GitHub Actions continuous integration using Python 3.10, pytest, and flake8.
+* Screenshots for unit testing, local API testing, and continuous integration.
